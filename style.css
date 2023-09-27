@@ -1,0 +1,165 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background-color: rgba(239, 4, 4, 0.991);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index:1 ;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover {
+    color: antiquewhite;
+    text-shadow: 4px 6px 7px black;
+
+}
+#video{
+    height: max-content;
+
+}
+video{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  
+}
+
+h1{
+    color: azure;
+    font-size: 30px;
+    text-align: right;
+    text-shadow: rgb(3, 3, 3);
+}
+h1:hover{
+    color: rgb(229, 17, 87);
+}
+span{
+    color: blue;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before {
+    content: "";
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww-ft-com.ezp-prod1.hul.harvard.edu%2Fcontent%2Fd6ecbf8a-4b20-4303-aa16-890218fa9c41&psig=AOvVaw2zxwvUy7gNoJC8-mFx5M6P&ust=1695365456248000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKD7_s2Ou4EDFQAAAAAdAAAAABAJ);
+    height: 500px;
+    background-position:center;
+    background-size: cover;
+    opacity: 0.6;
+}
+.main{
+    border: 2px ridge rgb(8, 8, 246);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    box-shadow:4px 5px ;
+}
+.pic{
+    display: flex;
+}
+.pic  img{
+    width: 400px;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.pic,h3{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    color: rgb(4, 39, 13);
+}
+h3{
+    color: rgba(249, 25, 9, 0.646);
+    
+}
+h4{
+    color: rgba(20, 39, 244, 0.906);
+
+}
+h3:hover{
+    
+    text-decoration: underline;
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 6px rgb(36, 33, 33) ;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 450px;
+    border: 2px inset rgba(172, 27, 27, 0.973);
+    margin: 20px;
+    background: linear-gradient(to top,rgb(4, 245, 40), white);
+    background-size: 100% 200%;
+    transition: all 2s;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 5px 6px 7px 3px red;
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: wheat;
+    background-color: red;
+}
